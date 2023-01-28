@@ -6,15 +6,16 @@
 // a = 9, b = -3->да;
 // a = -3 ,b = 9->нет;
 
-Console.Clear( );
+Console.Clear();
 Console.Write("Введите числа: "); 
 int number1 = int.Parse(Console.ReadLine());
 int number2 = int.Parse(Console.ReadLine());
 if (number1 == number2 * number2)
-     {
-         Console.Write(number1 + "является квадратом" + number2);
-     }
+    {
+        Console.WriteLine( number1 + " является квадратом " + number2 ); 
+    }
+
 else
-{
-    Console.Write(number1 + " не является квадратом " + number2);
-}
+    {
+        Console.WriteLine( number1 + " не является квадратом " + number2 ); 
+    }
