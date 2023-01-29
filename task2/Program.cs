@@ -4,7 +4,7 @@
 
 Console.Clear( );
 Console.WriteLine("Введите  день недели от 1 до 7: ");
-int number = int.Parse(Console.ReadLine());
+int number = int.Parse(Console.ReadLine(""));
 if(number == 1)
 {
     Console.Write("Понедельник");
